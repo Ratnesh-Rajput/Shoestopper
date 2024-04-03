@@ -65,7 +65,9 @@ function Footer() {
             />
             <p>Copyright. All rights reserved.</p>
           </div>
-          <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
+          <p className='font-montserrat cursor-pointer'><a href='https://github.com/Ratnesh-Rajput/Shoestopper' target='_blank'><i className=" bg-whitefa-brands fa-github"></i></a>
+				
+				Bugs? Features? Please report them here: <a href="https://github.com/Ratnesh-Rajput/Shoestopper/issues" className=" font-bold text-4xl" target='_blank'>GitHub</a>.</p>
         </div>
       </footer>
     )
